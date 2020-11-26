@@ -2,6 +2,8 @@
 
 Toy Robot application is a simulation of a toy robot moving on a square tabletop, of dimensions 5 units x 5 units. It takes PLACE X,Y,F, MOVE, LEFT, RIGHT, REPORT commands.
 
+Check this out: https://toy-robot.web.app/
+
 Repo URL: https://github.com/anr-software-solutions/robot.git
 
 Main solution logic is in `robot/src/helpers/useRobotCommands.js`
