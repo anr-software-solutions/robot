@@ -6,9 +6,9 @@ Check this out: https://toy-robot.web.app/
 
 Repo URL: https://github.com/anr-software-solutions/robot.git
 
-Main solution logic is in `robot/src/helpers/useRobotCommands.js`
+Main solution logic is in `src/helpers/useRobotCommands.js`
 
-Main test cases to test solution are in `robot/src/components/controlPanel/command/CommandRobot.test.js`
+Main test cases to test solution are in `src/components/controlPanel/command/CommandRobot.test.js`
 
 ## Run and Test the project
 
@@ -20,7 +20,7 @@ User Interface URL: https://toy-robot.web.app/
 Follow below steps to run it locally. You will need to have Node >= 8.10 and npm >= 5.6 on your machine.
 
 - Clone project to your local machine. https://github.com/anr-software-solutions/robot.git
-- Run `npm install && npm start` at `/robot`
+- Run `npm install && npm start` at root
 - Project will be running on http://localhost:3000/
 
 ### Test the project
@@ -28,7 +28,7 @@ Follow below steps to run it locally. You will need to have Node >= 8.10 and npm
 - Method 1: Run commands manually in https://toy-robot.web.app/. Instructions for test data are provided in the UI itself.
 - Method 2: Follow instructions in above section to set up the project locally and run `npm test` at `/robot`.
 
-<strong>Note that the main test cases to test the solution are at</strong> `robot/src/components/controlPanel/command/CommandRobot.test.js`. 
+<strong>Note that the main test cases to test the solution are at</strong> `src/components/controlPanel/command/CommandRobot.test.js`. 
 
 Project was not overloaded with other UI tests as the focus is mainly on solving the problem.
 
