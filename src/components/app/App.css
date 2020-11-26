@@ -1,0 +1,18 @@
+/* For mobile phones: */
+.app-contents {
+    margin: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .app-contents {
+        margin: 45px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    /* For desktop: */
+    .app-contents {
+        margin: 80px;
+    }
+}
